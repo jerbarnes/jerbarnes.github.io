@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-21T01:43:30+02:00</updated><id>http://localhost:4000/</id><title type="html">Cross-lingual</title><subtitle>Cross-lingual Sentiment and Emotion Analysis</subtitle><author><name>Jeremy Barnes</name></author><entry><title type="html">Post-doc at the Language Technology Group at University of Oslo</title><link href="http://localhost:4000/postdoc/" rel="alternate" type="text/html" title="Post-doc at the Language Technology Group at University of Oslo" /><published>2018-09-20T00:00:00+02:00</published><updated>2018-09-20T00:00:00+02:00</updated><id>http://localhost:4000/postdoc</id><content type="html" xml:base="http://localhost:4000/postdoc/">&lt;p&gt;Starting in October, I’ll be working on the &lt;a href=&quot;https://www.mn.uio.no/ifi/english/research/projects/sant/index.html&quot;&gt;&lt;u&gt;SANT project&lt;/u&gt;&lt;/a&gt; with the &lt;a href=&quot;https://www.mn.uio.no/ifi/english/research/groups/ltg/&quot;&gt;&lt;u&gt;Language Technology Group&lt;/u&gt;&lt;/a&gt; at the University of Oslo. We will be working on sentiment analysis approaches and resources for Norwegian, as well as more general state-of-the-art approaches to sentiment.&lt;/p&gt;</content><author><name>Jeremy Barnes</name></author><summary type="html">Starting in October, I’ll be working on the SANT project with the Language Technology Group at the University of Oslo. We will be working on sentiment analysis approaches and resources for Norwegian, as well as more general state-of-the-art approaches to sentiment.</summary></entry><entry><title type="html">COLING 2018 Paper: Sentiment Adaptation by Projecting Embeddings across Domains</title><link href="http://localhost:4000/coling-article/" rel="alternate" type="text/html" title="COLING 2018 Paper: Sentiment Adaptation by Projecting Embeddings across Domains " /><published>2018-05-21T00:00:00+02:00</published><updated>2018-05-21T00:00:00+02:00</updated><id>http://localhost:4000/coling-article</id><content type="html" xml:base="http://localhost:4000/coling-article/">&lt;p&gt;Our paper (joint work with Roman Klinger and Sabine Schulte im Walde) on using cross-lingual embedding projection methods for domain adaptation in sentiment analysis
+has been accepted at COLING 2018! See you in Santa Fe!&lt;/p&gt;</content><author><name>Jeremy Barnes</name></author><summary type="html">Our paper (joint work with Roman Klinger and Sabine Schulte im Walde) on using cross-lingual embedding projection methods for domain adaptation in sentiment analysis has been accepted at COLING 2018! See you in Santa Fe!</summary></entry><entry><title type="html">Bilingual Sentiment Embeddings accepted to ACL 2018</title><link href="http://localhost:4000/acl/" rel="alternate" type="text/html" title="Bilingual Sentiment Embeddings accepted to ACL 2018" /><published>2018-01-06T00:00:00+01:00</published><updated>2018-01-06T00:00:00+01:00</updated><id>http://localhost:4000/acl</id><content type="html" xml:base="http://localhost:4000/acl/">&lt;h3 id=&quot;bilingual-sentiment-embeddings-joint-projection-of-sentiment-across-languages&quot;&gt;&lt;strong&gt;Bilingual Sentiment Embeddings: Joint Projection of Sentiment Across Languages&lt;/strong&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;I’m really excited to announce that the ong paper that I wrote in conjunction with Roman Klinger
+and Sabine Schulte im Walde was accepted at ACL 2018. We establish a joint embedding projection
+and sentiment training method which performs well with as few as 1000 pairs of word translations.&lt;/p&gt;
+
+&lt;p&gt;The approach allows us to easily perform sentiment analysis in under-resourced languages and effectively
+alleviates the data bottleneck.&lt;/p&gt;</content><author><name>Jeremy Barnes</name></author><summary type="html">Bilingual Sentiment Embeddings: Joint Projection of Sentiment Across Languages</summary></entry><entry><title type="html">MultiBooked Corpus accepted in LREC 2018</title><link href="http://localhost:4000/multibooked/" rel="alternate" type="text/html" title="MultiBooked Corpus accepted in LREC 2018" /><published>2018-01-06T00:00:00+01:00</published><updated>2018-01-06T00:00:00+01:00</updated><id>http://localhost:4000/multibooked</id><content type="html" xml:base="http://localhost:4000/multibooked/">&lt;h3 id=&quot;multibooked-corpora&quot;&gt;&lt;strong&gt;MultiBooked Corpora&lt;/strong&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;The main motivation and difficulty to cross-lingual sentiment analysis is the lack of annotated data in most languages. Even for languages with millions of speakers, like Catalan, there are very few resources available. So we decided to create a corpus of hotel reviews Basque and Catalan (since these are the two under-resourced languages I am most familiar with) and annotate them for aspect-level sentiment analysis.&lt;/p&gt;
+
+&lt;p&gt;We have published the results, as well as benchmarks, in our paper &lt;em&gt;MultiBooked: A Corpus of Basque and Catalan Hotel Reviews Annotated for Aspect-level Sentiment Classification&lt;/em&gt; [https://github.com/jbarnesspain/multibooked], which has been accepted in LREC 2018.&lt;/p&gt;</content><author><name>Jeremy Barnes</name></author><summary type="html">MultiBooked Corpora</summary></entry><entry><title type="html">State-of-the-art in Sentiment Analysis accepted to WASSA 2017</title><link href="http://localhost:4000/sota-sentiment/" rel="alternate" type="text/html" title="State-of-the-art in Sentiment Analysis accepted to WASSA 2017" /><published>2017-07-27T00:00:00+02:00</published><updated>2017-07-27T00:00:00+02:00</updated><id>http://localhost:4000/sota-sentiment</id><content type="html" xml:base="http://localhost:4000/sota-sentiment/">&lt;h3 id=&quot;what-is-state-of-the-art-in-sentiment-analysis&quot;&gt;&lt;strong&gt;What is State-of-the-art in Sentiment Analysis?&lt;/strong&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;State-of-the-art is a tricky concept. In sentiment analysis, which approach
+works best often depends on the data you have at hand, whether your interested
+in knowing the general sentiment of a document or sentence, which is
+dominated by neural networks,
+or if you want to know what the sentiment is of a specific target entity,
+where an ensemble of techniques often gives the best results.&lt;/p&gt;
+
+&lt;p&gt;Another obstacle is that we often don’t have the time or energy to devote 
+to reimplementing others’ approaches and rely on the results they present
+in their papers.&lt;/p&gt;
+
+&lt;h3 id=&quot;experiment&quot;&gt;&lt;strong&gt;Experiment&lt;/strong&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;We were interested in seeing if any particular model was better
+on a certain kind of data, or if there was one model that would perform better
+overall. We decided to choose 7 standard sentiment models and look more at
+some of the hyperparameters which are often ignored.&lt;/p&gt;
+
+&lt;p&gt;We ran 7 different models on 6 different datasets with different characteristics &lt;a href=&quot;../downloads/sota_sentiment.pdf&quot;&gt;(you can find the details here&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h3 id=&quot;results&quot;&gt;&lt;strong&gt;Results&lt;/strong&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;The first major surprise is that the old bag-of-words approach works amazingly
+well across datasets. In fact, it comes very close to the best performing algorithms
+on almost all of the datasets, as you can see in the next table.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/bow.png&quot; alt=&quot;Drawing&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Rather unsurprisingly given their performance on so many tasks these days, bidirectional LSTMs are
+the big winners.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/bilstm-overall.png&quot; alt=&quot;Drawing&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;</content><author><name>Jeremy Barnes</name></author><summary type="html">What is State-of-the-art in Sentiment Analysis?</summary></entry><entry><title type="html">Research Stay</title><link href="http://localhost:4000/research-stay/" rel="alternate" type="text/html" title="Research Stay" /><published>2017-03-27T00:00:00+02:00</published><updated>2017-03-27T00:00:00+02:00</updated><id>http://localhost:4000/research-stay</id><content type="html" xml:base="http://localhost:4000/research-stay/">&lt;p&gt;From April, 2017 to March, 2018 I will be at Stuttgart University working with Roman Klinger and Sabine Schulte im Walde at the Collaborative Research Center. We will be looking into how to encode sentiment, emotion and abstraction into vector space using a distributional semantic framework.&lt;/p&gt;</content><author><name>Jeremy Barnes</name></author><summary type="html">From April, 2017 to March, 2018 I will be at Stuttgart University working with Roman Klinger and Sabine Schulte im Walde at the Collaborative Research Center. We will be looking into how to encode sentiment, emotion and abstraction into vector space using a distributional semantic framework.</summary></entry><entry><title type="html">COLING Article</title><link href="http://localhost:4000/coling-article/" rel="alternate" type="text/html" title="COLING Article" /><published>2016-11-17T00:00:00+01:00</published><updated>2016-11-17T00:00:00+01:00</updated><id>http://localhost:4000/coling-article</id><content type="html" xml:base="http://localhost:4000/coling-article/">&lt;p&gt;My &lt;a href=&quot;https://jbarnesspain.github.io/downloads/coling2016.pdf&quot;&gt;first article &lt;/a&gt; on aspect-based cross-lingual sentiment analysis was accepted to COLING. I’ve been to Osaka once and I’m really looking forward to going back to stock up on a million Japanese goodies.&lt;/p&gt;</content><author><name>Jeremy Barnes</name></author><summary type="html">My first article on aspect-based cross-lingual sentiment analysis was accepted to COLING. I’ve been to Osaka once and I’m really looking forward to going back to stock up on a million Japanese goodies.</summary></entry></feed>
