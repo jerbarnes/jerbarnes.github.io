@@ -1,0 +1,29 @@
+PART 1
+###########################################################################
+Categorize the tasks with the following prediction types:
+---------------------------------------------------------
+a) regression
+b) binary classification
+c) multi-class classification
+d) ranking
+e) structured prediction
+
+Tasks:
+-----------------------------------------------
+1) predict if an email is spam or not.
+2) predict the price of a house.
+3) predict the most relevant webpage for a search.
+4) predict the part-of-speech tags for a sentence.
+5) predict how benefitial a new feature is for your linear model.
+6) predict the Norwegian translation of a source sentence in Sami.
+7) predict the GPS code for a tweet in a certain dialect.
+8) predict the named entities found in a sentence.
+9) predict the emotions in a text.
+10) suggest some nearby restaurants based on user preferences and reviews.
+
+
+PART 2:
+###########################################################################
+
+Can you think of any way to create loss functions for these tasks?
+- No need to think of mathematical formulations, but rather intuitive losses.

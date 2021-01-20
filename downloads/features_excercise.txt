@@ -1,0 +1,40 @@
+Spam detection (hyperlinks have been removed):
+
+SPAM     special offer free trial hyperlink click here i m not interested hyperlink
+SPAM     immediate help needed we are a fortune 100 company that is growing at a tremendous rate of over 200% per year...
+SPAM     you requested to receive this mailing by registering at send great offers i m your healthy advantagesm personal advocate...
+SPAM     dear sir with due respect and humility i write you this letter which i believe you would be of great assistance to my children...
+SPAM     if this flyer does not appear correctly and or images do not appear please click the following link hyperlink...
+NOT SPAM     i just had to jump in here as carbonara is one of my favourites to make and ask what the hell are you supposed to use instead of cream...
+NOT SPAM     i have been trying to research via sa mirrors and search engines if a canned script exists...
+NOT SPAM     hello have you seen and discussed this article and his approach thank you...
+NOT SPAM     can someone explain what type of operating system solaris is as ive never seen or used it...
+NOT SPAM     folks my first time posting have a bit of unix experience but am new to linux...
+
+
+Sentiment Analysis for movie reviews:
+
+POSITIVE    ``Extreme Ops'' exceeds expectations.
+POSITIVE    The actors are fantastic.
+POSITIVE    Familiar but utterly delightful.
+POSITIVE    ...very funny, very enjoyable...
+POSITIVE    Duvall is strong as always.
+NEGATIVE    This isn't a new idea.
+NEGATIVE    An absurdist spider web.
+NEGATIVE    Frida isn't that much different from many a Hollywood romance.
+NEGATIVE    The movie is well done, but slow.
+NEGATIVE    As it is, it's too long and unfocused.
+
+
+Language Detection:
+
+NORWEGIAN       Idag er ho her. Etter to måneder borte. Velkommen sol.
+DANISH      Kan du huske, hvornår du kom på Twitter? Det kan jeg!
+NORWEGIAN       Twitter! Jeg har laga ramen!
+DANISH       Kender du en ven, der har det på samme måde?
+FAROESE     eg skilji ikki hví Canal+ vísir Arsenal-Man City á 2 kanalum
+ICELANDIC   Í morgun bleiv lagið "Exquisite Bliss" hjá Brimheim kosið "Ugens uundgåelige" á P3 hesa vikuna.
+ENGLISH     Why did this make me emotional???? That’s so nice :))
+GERMAN      Stell dir vor, du hast deinen ersten Arbeitstag im neuen Büro und dann kommen Lady Gaga und JLo und singen mal kurz was.
+SPANISH     Así que si te aparece este video en tu tl es porque tendrás un maravilloso día
+CATALAN     Tu ¿què hi tens, a dintre? ¿Jardí o infern? Una mica de tot. Segons d’on bufa el vent.
