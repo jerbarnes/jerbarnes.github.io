@@ -1,0 +1,57 @@
+Answers to group questions
+###########################
+
+1. Name 3 things that can lead a model to overfit to the training data.
+    1) ## overly complex hypothesis (lots of parameters)
+    2) ## Not using regularization
+    3) ## choosing hyperparameters on train split, rather than validation/test
+
+2. In your own words, what is an "inductive bias"?
+_____________________________________________________________________
+    - Why would we want one?
+        ## To reduce hypothesis space of possible functions
+    - What is an example of an inductive bias?
+        ## Linear models
+
+3. Imagine you want to classify texts into 10 classes (news, sports, social media, emails, etc) and you have 200 training examples
+        - Write a simple linear model for this problem.
+            ## y = Wx + b
+        - What features would you use? What would your x instances look like?
+            ## words, ngrams, lexicon features / one-hot vectors of the size of your feature space
+        - What would be the dimensionality of W and b?
+            ## shape(W) = size of feature space x number of classes, b = number of classes
+        - What would the predictions y_hat look like?
+            ## probably a vector, sized number of classes, where the most probable class has the highest value
+        - How can you ensure a probability distribution over the classes?
+            ## softmax
+        - Which losses would be appropriate?
+            ## cross-entropy loss would be appropriate
+        - What would be a good optimization method?
+            ## Since the classifier is linear, you can you convex optimization methods. SGD would also work, if you have a very large dataset that makes convex optimization difficult.
+
+4. What purpose does regularization serve?
+    ## Avoids large weights / complicated hypotheses
+
+    - What are the two regularization terms that we mentioned last class?
+    1) ## L1 – leads to sparse hypothesis (mainly 0s)
+    2) ## L2 – leads to small weights
+
+5. Fill in the pseudocode for SGD
+Algorithm 2.1 Stochastic gradient descent
+(Note: you only have to fill in the blanks)
+------------------------------------------------------------------
+    Input: F, T, L, where
+    - Function F(x; theta) is a model parameterized by theta
+    - T is a training set of inputs x1...xn and desired outputs y1...yn
+    - and L is a loss function
+
+    1. while stopping criteria not met; do
+    2. Sample  ## a training instance
+    3. Compute ## loss
+    4. Compute ## gradient with respect to the parameters theta
+    3. Update  ## parameters using a weighted version of gradient.
+--------------------------------------------------------------------
+
+
+6. What is the main motivation for moving to non-linear models?
+    ## Many tasks are not linearly separable.

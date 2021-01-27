@@ -1,0 +1,44 @@
+Talk with your partners and try to answer the following questions:
+##################################################################
+
+
+1. Name 3 things that can lead a model to overfit to the training data.
+        1) _________________________________________________
+        2) _________________________________________________
+        3) _________________________________________________
+
+2. In your own words, what is an "inductive bias"?
+    - Why would we want one? __________________________________________
+    - What is an example of an inductive bias?
+
+3. Imagine you want to classify texts into 10 classes (news, sports, social media, emails, etc) and you have 200 training examples
+    - Write a simple linear model for the classification problem.
+        - What features would you use? What would your x instances look like?
+        - What would be the dimensionality of W and b?
+        - What would the predictions y_hat look like?
+        - How can you ensure a probability distribution over the classes?
+        - Which losses would be appropriate for this kind of problem?
+        - What would be a good optimization method?
+
+4. What purpose does regularization serve?
+    - What are the two regularization terms that we mentioned last class?
+    - What is the difference between them (bonus points as we didn't really discuss this)?
+
+
+5. Fill in the pseudocode for SGD
+Algorithm 2.1 Stochastic gradient descent
+(Note: you only have to fill in the blanks)
+------------------------------------------------------------------
+    Input: F, T, L, where
+    - Function F(x; theta) is a model parameterized by theta
+    - T is a training set of inputs x1...xn and desired outputs y1...yn
+    - and L is a loss function
+
+    1. while stopping criteria not met; do
+    2. Sample ______________________
+    3. Compute ___________________
+    4. Compute ___________________ with respect to the parameters theta
+    5. Update _____________________
+--------------------------------------------------------------------
+
+6. What is the main motivation for moving to non-linear models?
