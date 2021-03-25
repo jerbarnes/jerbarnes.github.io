@@ -1,0 +1,34 @@
+Evolution of Transformer-based Models
+
+
+1. What is the biggest LM we have these days?
+
+2. How much data is used to train it?
+
+3. Can you imagine any problems with training a model this size?
+
+4. How could you analyze data of this size?
+
+5. How much more data do we need to make new models better?
+
+6. If the only way to create awesome NLP is by pretraining on terrabytes of text, what happens to languages that don't have this?
+
+7. Which part of the NLP do you think has the greatest carbon footprint?
+    a) Training a NLP pipeline (with a BiLSTM, for example)
+    b) hyperparameter tuning for the pipeline
+    c) Training a large transformer
+    d) neural architecture search on a large transformer
+
+8. Would you think that hyperparameter tuning for a BiLSTM has more or less carbon footprint than:
+    a) travelling by plane from New York to San Francisco
+    b) an average human in one year
+    c) an average American in one year
+    d) the full lifetime of a car, including fuel
+
+9. In the last 6 years, the amount of compute used to train the largest LMs has increased:
+    a) 30x
+    b) 3000x
+    c) 300,000x
+    d) 3,000,000x
+
+10) If you want to post-hoc reduce the size of a giant LM, can you think of any ways to do it?
