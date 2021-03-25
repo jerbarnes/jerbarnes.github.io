@@ -30,3 +30,12 @@ Evolution of Transformer-based Models
     d) 3,000,000x
 
 9. If you want to post-hoc reduce the size of a giant LM, can you think of any ways to do it?
+
+--------------------------------------------
+For some of the answers you can check:
+
+Bender et al. (2021) On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜 https://dl.acm.org/doi/10.1145/3442188.3445922
+
+Rogers et al. (2020) A Primer in BERTology: What We Know About How BERT Works. https://www.aclweb.org/anthology/2020.tacl-1.54/
+
+Strubel et al. (2019) Energy and policy considerations for deep learning in NLP. https://arxiv.org/abs/1906.02243
