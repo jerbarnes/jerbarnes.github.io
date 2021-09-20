@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Jeremy Barnes: Post-doc at LTG OSLO"
+title                    : "Jeremy Barnes"
 title_separator          : "-"
 name                     : "Jeremy Barnes"
 description              : ""
@@ -79,8 +79,7 @@ analytics:
 author:
   name             : "Jeremy Barnes"
   avatar           : "/assets/images/pic2.jpg"
-  bio              : "I'm a PostDoc at the University of Oslo. My main
-  research interests are cross-lingual and transfer learning methods for under-resourced languages, sentiment and emotion analysis."
+  bio              : ""
   location         : # "Stuagard"
   email            : jeremycb (at) ifi (dot) uio (dot) no
   uri              :
@@ -180,7 +179,7 @@ timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
-plugins:
+plugins_dir:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
